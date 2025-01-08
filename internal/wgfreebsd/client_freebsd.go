@@ -18,10 +18,10 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgfreebsd/internal/nv"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgfreebsd/internal/wgh"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/mikuka/wgctrl-go/internal/wgfreebsd/internal/nv"
+	"github.com/mikuka/wgctrl-go/internal/wgfreebsd/internal/wgh"
+	"github.com/mikuka/wgctrl-go/internal/wginternal"
+	"github.com/mikuka/wgctrl-go/wgtypes"
 )
 
 // ifGroupWG is the WireGuard interface group name passed to the kernel.

@@ -1,4 +1,4 @@
-module golang.zx2c4.com/wireguard/wgctrl
+module github.com/mikuka/wgctrl-go
 
 go 1.19
 
