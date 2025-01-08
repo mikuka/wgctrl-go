@@ -16,8 +16,8 @@ import (
 	"github.com/mdlayher/netlink"
 	"github.com/mdlayher/netlink/nlenc"
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgtest"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/mikuka/wgctrl-go/internal/wgtest"
+	"github.com/mikuka/wgctrl-go/wgtypes"
 )
 
 func TestLinuxClientDevicesError(t *testing.T) {
