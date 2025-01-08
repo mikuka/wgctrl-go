@@ -245,7 +245,7 @@ func parseRTNLInterfaces(msgs []syscall.NetlinkMessage) ([]string, error) {
 }
 
 // wgKind is the IFLA_INFO_KIND value for WireGuard devices.
-const wgKind = "wireguard"
+const wgKind = "amneziawg"
 
 // isWGKind parses netlink attributes to determine if a link is a WireGuard
 // device, then populates ok with the result.
