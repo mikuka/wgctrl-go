@@ -285,7 +285,7 @@ func testClient(t *testing.T, fn genltest.Func) *Client {
 	family := genetlink.Family{
 		ID:      familyID,
 		Version: unix.WG_GENL_VERSION,
-		Name:    unix.WG_GENL_NAME,
+		Name:    "amneziawg",
 	}
 
 	conn := genltest.Dial(genltest.ServeFamily(family, fn))

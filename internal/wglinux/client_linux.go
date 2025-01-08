@@ -48,7 +48,7 @@ func New() (*Client, bool, error) {
 
 // initClient is the internal Client constructor used in some tests.
 func initClient(c *genetlink.Conn) (*Client, bool, error) {
-	f, err := c.GetFamily(unix.WG_GENL_NAME)
+	f, err := c.GetFamily("amneziawg")
 	if err != nil {
 		_ = c.Close()
 
